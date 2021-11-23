@@ -1,0 +1,20 @@
+{
+  "name": "music-cli",
+  "version": "1.0.0",
+  "description": "Download music files for free",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "node",
+    "ytdl"
+  ],
+  "author": "aldrinjenson",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "youtube-music-api": "^1.0.6"
+  }
+}
