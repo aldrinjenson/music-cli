@@ -14,7 +14,10 @@ Search for any song of your choice and have them downloaded locally using `youtb
 - clone this repo
 
 ```bash
+git clone https://github.com/aldrinjenson/music-cli.git
+cd music-cli
 npm install
+chmod +x musica.sh
 ```
 
 ## Usage
