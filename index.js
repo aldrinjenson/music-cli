@@ -51,8 +51,8 @@ const main = async () => {
   });
 
   const p = `-f '(bestaudio)[protocol^=http]' ${params}`;
-  console.log(params, p);
 
+  console.log("Downloading...")
   exec(`youtube-dl ${vidId} ${p}`);
 };
 
